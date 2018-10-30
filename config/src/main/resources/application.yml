@@ -11,5 +11,7 @@ spring:
       password: ${CONFIG_SERVICE_PASSWORD}
 
 server:
+  servlet:
+    context-path: /config
   port: 8888
 
